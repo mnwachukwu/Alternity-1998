@@ -1,0 +1,109 @@
+{
+    "name": "alternity1998",
+    "title": "Alternity (1998)",
+    "description": "Many details here.",
+    "version": "1.0.0",
+    "templateVersion": 2,
+    "author": "Matt Nwachukwu",
+    "scripts": [
+      "scripts/system-script-1.js",
+      "scripts/system-script-2.js"
+    ],
+    "esmodules": [
+      "scripts/system-module-1.mjs"
+    ],
+    "styles": [
+      "styles/system-styles-1.css",
+      "styles/system-styles-2.css"
+    ],
+    "packs": [
+      {
+        "name": "actors",
+        "label": "Actors",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/actors.db",
+        "entity": "Actor"
+      },
+      {
+        "name": "goods",
+        "label": "Goods",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/goods.db",
+        "entity": "Item"
+      },
+      {
+        "name": "services",
+        "label": "Services",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/services.db",
+        "entity": "Item"
+      },
+      {
+        "name": "weapons",
+        "label": "Weapons",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/weapons.db",
+        "entity": "Item"
+      },
+      {
+        "name": "armor",
+        "label": "Armor",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/armor.db",
+        "entity": "Item"
+      },
+      {
+        "name": "vehicles",
+        "label": "Vehicles",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/vehicles.db",
+        "entity": "Item"
+      },
+      {
+        "name": "spaceships",
+        "label": "Spaceships",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/spaceships.db",
+        "entity": "Item"
+      },
+      {
+        "name": "computers",
+        "label": "Computers",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/computers.db",
+        "entity": "Item"
+      },
+      {
+        "name": "pointsofinterest",
+        "label": "Points of Interest",
+        "system": "alternity1998",
+        "module": "alternity1998",
+        "path": "packs/pointsofinterest.db",
+        "entity": "Scene"
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": false,
+    "initiative": "1d20",
+    "gridDistance": 2,
+    "gridUnits": "m",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": null,
+    "url": "https://your/hosted/system/repo/",
+    "manifest": "https://your/hosted/system/repo/system.json",
+    "download": "https://your/packaged/download/archive.zip"
+  }
