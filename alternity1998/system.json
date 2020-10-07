@@ -103,7 +103,7 @@
     "gridUnits": "m",
     "primaryTokenAttribute": "resources.health",
     "secondaryTokenAttribute": null,
-    "url": "https://your/hosted/system/repo/",
+    "url": "https://github.com/mnwachukwu/Alternity-1998",
     "manifest": "https://your/hosted/system/repo/system.json",
     "download": "https://your/packaged/download/archive.zip"
   }
