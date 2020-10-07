@@ -10,15 +10,20 @@
           "hairColor": "blue"
         },
         "resources": {
-          "health": {
+          "stun": {
             "min": 0,
-            "value": 10,
-            "max": 10
+            "value": 0,
+            "max": 100
           },
-          "power": {
+          "wound": {
             "min": 0,
-            "value": 1,
-            "max": 3
+            "value": 0,
+            "max": 100
+          },
+          "mortal": {
+              "min": 0,
+              "value": 0,
+              "max": 100
           }
         }
       },

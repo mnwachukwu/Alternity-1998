@@ -101,7 +101,7 @@
     "initiative": "1d20",
     "gridDistance": 2,
     "gridUnits": "m",
-    "primaryTokenAttribute": "resources.health",
+    "primaryTokenAttribute": "resources.mortal",
     "secondaryTokenAttribute": null,
     "url": "https://github.com/mnwachukwu/Alternity-1998",
     "manifest": "https://your/hosted/system/repo/system.json",
